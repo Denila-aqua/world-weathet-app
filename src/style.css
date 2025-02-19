@@ -1,45 +1,46 @@
 body {
-  background: #f9f7fe;
+  background: #fae7ec;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #885df1;
+  color: #912a6b;
 }
 
 .weather-app {
-  background: white;
+  background-image: url(/Users/atrivarmazyari/Documents/world-weathet-app/marivi-pazos-apple-blossom-unsplash.jpg);
+  background-size: cover;
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(145, 42, 107, 0.4);
 }
 
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid rgba(250, 231, 236, 0.4);
   padding-bottom: 30px;
 }
 
 .search-input {
-  background-color: #f9f7fe;
+  background-color: rgba(250, 231, 236, 0.4);
   border: none;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(28, 41, 18, 0.7);
   font-size: 16px;
-  padding: 20px;
-  width: 75%;
+  padding: 15px 30px;
+  width: 65%;
   border-radius: 6px;
 }
 
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #885df1;
+  background-color: rgba(145, 42, 107, 0.8);
   color: white;
   border: none;
-  padding: 20px;
+  padding: 15px 30px;
   line-height: 1;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 main {
@@ -48,6 +49,7 @@ main {
 
 .current-temperature {
   font-size: 48px;
+  color: rgb(41, 58, 46);
 }
 
 .current-weather {
@@ -57,11 +59,12 @@ main {
 
 .current-city {
   font-size: 38px;
+  color: rgb(41, 58, 46);
   font-weight: 900;
   margin: 0;
 }
 .current-details {
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(28, 41, 18, 0.7);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -90,8 +93,8 @@ main {
 }
 
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid rgba(250, 231, 236, 0.4);
   text-align: center;
   padding-top: 15px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(28, 41, 18, 0.7);
 }

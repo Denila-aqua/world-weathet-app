@@ -8,7 +8,7 @@ a {
 }
 
 .weather-app {
-  background-image: url(/Users/atrivarmazyari/Documents/world-weathet-app/marivi-pazos-apple-blossom-unsplash.jpg);
+  background-image: url("../marivi-pazos-apple-blossom-unsplash.jpg");
   background-size: cover;
   max-width: 600px;
   margin: 60px auto;

@@ -113,10 +113,14 @@ main {
 
 .wearher-forecast-temperatures {
   text-align: center;
-  color: #f65282;
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.weather-forecast-temperature {
+  padding: 0 14px;
+  color: #f65282;
 }
 
 footer {

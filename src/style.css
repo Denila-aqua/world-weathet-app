@@ -111,16 +111,16 @@ main {
   text-align: center;
 }
 
-.wearher-forecast-temperatures {
+.weather-forecast-temperatures {
   text-align: center;
   display: flex;
+  color: #f65282;
   justify-content: center;
   margin-top: 10px;
 }
 
 .weather-forecast-temperature {
-  padding: 0 14px;
-  color: #f65282;
+  padding: 0 10px;
 }
 
 footer {
